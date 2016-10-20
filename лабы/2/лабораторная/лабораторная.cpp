@@ -166,7 +166,7 @@ int _tmain(int argc, _TCHAR* argv[])
 				cout << "_________________________________________" << endl;
 			}
 			break;
-		case 0: break;
+		case 0: exit(0); break;
 
 		}
 	}

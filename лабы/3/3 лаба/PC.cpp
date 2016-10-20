@@ -11,7 +11,7 @@ void PC::setstoimostb(int stoimostb)
 }
 void PC::getstoimostb()
 {
-	cout << "Стоимость PC:" << this->stoimostb << endl;
+	cout << "Стоимость:" << this->stoimostb << endl;
 }
 PC::~PC(void)
 { }

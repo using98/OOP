@@ -1,6 +1,11 @@
 ﻿  main.cpp
+  Tovar.cpp
   Создание кода...
   Компиляция...
+  work_station.cpp
+  projector.cpp
+  headphones.cpp
   PC.cpp
+  Monitor.cpp
   Создание кода...
-  3 лаба.vcxproj -> D:\OOP\3 лаба\Debug\3 лаба.exe
+  3 лаба.vcxproj -> D:\OOP\лабы\3\Debug\3 лаба.exe

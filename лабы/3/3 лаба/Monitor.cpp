@@ -9,9 +9,18 @@ void Monitor::setdiagonal(int diagonal)
 {
 	this->diagonal = diagonal;
 }
+void Monitor::setcover_type(char *cover_type)
+{
+	this->cover_type = cover_type;
+}
 void Monitor::getdiagonal()
 {
-	cout << "Диагональ монитора:" << this->diagonal << endl;
+	cout << "Диагональ:" << this->diagonal << endl;
 }
+void Monitor::getcover_type()
+{
+	cout << "Тип покрытия:" << this->cover_type << endl;
+}
+
 Monitor::~Monitor(void)
 { }

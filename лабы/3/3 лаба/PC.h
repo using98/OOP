@@ -4,6 +4,7 @@ class PC:
 	public Monitor
 {
 	int stoimostb;
+	
 public:
 	PC();
 	void setstoimostb(int stoimostb);

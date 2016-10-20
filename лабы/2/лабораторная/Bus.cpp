@@ -35,7 +35,6 @@ Bus::~Bus(void)
 { } 
 void Bus::print() 
 {
-
 	//cout << "Name - " << Bus::name << endl;
 	cout << "Номер автобуса - " << Bus::nomer1 << endl;
 	cout << "Номер маршрута - " << Bus::nomer2 << endl;
