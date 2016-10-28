@@ -98,7 +98,7 @@ private:
 public:
 	constclass(void);
 	~constclass(void);
-	void getfun()
+	void getfun() const
 	{
 		cout << this->con << endl;
 	}
@@ -113,7 +113,8 @@ class Printer
 public:
 	Printer() : Number(5) {};
 
-	void iAmPrinting(Tovar *any) {
+	void iAmPrinting(Tovar *any)
+	{
 		cout << "Type: " << typeid(any).name() << endl;
 		any->toConsole();
 	}
@@ -156,7 +157,8 @@ public:
 class Inspector
 {
 public:
-	void iKnowAllAboutYou(Student& any) {
+	void iKnowAllAboutYou(Student& any)
+	{
 		std::cout << "Твой возраст: " << any.age << std::endl;
 	}
 };
@@ -164,7 +166,8 @@ public:
 class Curator
 {
 public:
-	void iCanModify(Student& any) {
+	void iCanModify(Student& any)
+	{
 		cin>>any.age;
 	}
 };

@@ -107,7 +107,7 @@ void function_2()
 //y.getpower(9);
 //y.setmm(4);work_station::setmm: невозможно обратиться к protected член, объявленному в классе "answer"	
 
-//result z;
+// heaphones z;
 //z.setpower(12);
 //z.setCPU(20); нет доступа к "work_station::setCPU", поскольку "headphones" использует "protected" для наследования из "WORK_STATION"
 //z.setpower(9);

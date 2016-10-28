@@ -38,7 +38,8 @@ void Monitor::setdate(int day, int month) {
 	this->day = day;
 	this->month = month;
 }
-void Monitor::getdate() {
+void Monitor::getdate() 
+{
 	cout << "Дата выпуска: " << this->day << "." << this->month;
 	cout << endl;
 }
@@ -89,7 +90,8 @@ void work_station::Name::getnull()
 work_station::Name::~Name()
 {
 }
-void work_station::gethard(Name& x) {
+void work_station::gethard(Name& x)
+{
 	x.fair();
 }
 void work_station::Name::fair() {
