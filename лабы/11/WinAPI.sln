@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinAPI", "WinAPI\WinAPI.vcxproj", "{DF88854F-8FC2-4569-A7B3-61B3A1BE352B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF88854F-8FC2-4569-A7B3-61B3A1BE352B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF88854F-8FC2-4569-A7B3-61B3A1BE352B}.Debug|Win32.Build.0 = Debug|Win32
+		{DF88854F-8FC2-4569-A7B3-61B3A1BE352B}.Release|Win32.ActiveCfg = Release|Win32
+		{DF88854F-8FC2-4569-A7B3-61B3A1BE352B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -3,7 +3,6 @@
 using namespace std;
 class String
 {
-
 	char *str1, *str2;
 	int i, j, d;
 public:

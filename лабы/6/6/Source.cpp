@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
 
-	setlocale(LC_ALL, "Russian");
+	setlocale(0, "");
 	char *a = new char[50], *b = new char[50], *c = new char[50];
 	int del;
 	cout << "______________________________________________________________" << endl;

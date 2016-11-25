@@ -3,7 +3,6 @@
 
 String::String()
 {
-
 }
 String::String(char *a, int del)
 {
@@ -21,7 +20,8 @@ bool String::operator ==(String ob)
 			if (str1[i] != ob.str1[i])
 				b = false;
 	}
-	else b = false;
+	else
+		b = false;
 	return b;
 }
 bool String::operator>(String ob)
@@ -41,6 +41,7 @@ String String::operator +(String ob)
 }
 String String::operator -(int d)
 {
+
 	String str2;
 	j = 0;
 	char str[50];
